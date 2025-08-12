@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'bab3/belajar.dart';
-
+import 'bab4/belajar.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -12,8 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: 'BelajarPage',
-      routes: {'BelajarPage': (context) => const BelajarPage()},
+      initialRoute: 'KalkulatorPage',
+      routes: {'KalkulatorPage': (context) => const KalkulatorPage()},
     );
   }
 }

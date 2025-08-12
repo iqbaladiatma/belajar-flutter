@@ -15,7 +15,7 @@ class _BelajarPageState extends State<BelajarPage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [Text('Belajar Flutter')],
+          children: const [Text('Flutter itu susah atau gampang?')],
         ),
       ),
     );
