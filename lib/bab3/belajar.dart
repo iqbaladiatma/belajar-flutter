@@ -11,7 +11,7 @@ class _BelajarPageState extends State<BelajarPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Belajar Flutter BAB 3')),
+      appBar: AppBar(title: const Text('BelajarhbcsbcashbcsahbB 3')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
