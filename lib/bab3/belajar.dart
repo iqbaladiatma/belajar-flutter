@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class BelajarPage extends StatefulWidget {
-  const BelajarPage({super.key});
+class ProfileCard extends StatefulWidget {
+  const ProfileCard({super.key});
 
   @override
-  State<BelajarPage> createState() => _BelajarPageState();
+  State<ProfileCard> createState() => _ProfileCardState();
 }
 
-class _BelajarPageState extends State<BelajarPage> {
+class _ProfileCardState extends State<ProfileCard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -77,15 +77,6 @@ class _BelajarPageState extends State<BelajarPage> {
     ],
   ),
 )
-
-
-
-
-
-
-
-
-
           ],
         ),
       ),
