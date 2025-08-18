@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_biodata/bab5/ini.dart';
+import 'package:my_biodata/bab6/gallery.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       // Versi simpel: langsung pakai home
-      home: const ProductListScreen(),
+      home: const PhotoGalleryScreen(),
     );
   }
 }
