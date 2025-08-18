@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_biodata/bab5/ini.dart';
+import 'package:my_biodata/bab4/belajar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      // Versi simpel: langsung pakai home
-      home: const ProductListScreen(),
+      initialRoute: 'KalkulatorPage',
+      routes: {'KalkulatorPage': (context) => const KalkulatorPage()},
     );
   }
 }
