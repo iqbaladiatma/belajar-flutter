@@ -39,7 +39,7 @@ class _KalkulatorPageState extends State<KalkulatorPage> {
       break;
     case 'bagi':
       if(angka2 == 0) {
-        setState(() {
+        setState(() { 
           _hasil = 'Tidak bisa dibagi nol';
           return;
         });
