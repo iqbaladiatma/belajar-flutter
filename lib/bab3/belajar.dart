@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 
 class ProfileCard extends StatefulWidget {
   const ProfileCard({super.key});
@@ -18,7 +20,6 @@ class _ProfileCardState extends State<ProfileCard> {
       // ⁡⁣⁣⁢bagian UI nya ⁡
       body: Center(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center, // posisi tengah vertikal
           children: [
           
@@ -51,6 +52,9 @@ class _ProfileCardState extends State<ProfileCard> {
           fontWeight: FontWeight.bold,
         ),
       ),
+
+
+      //⁡⁣⁣⁢ bagian tekx⁡
       const SizedBox(height: 10),
       const Text(
         'Flutter Developer',
@@ -60,17 +64,18 @@ class _ProfileCardState extends State<ProfileCard> {
           fontWeight: FontWeight.bold,
         ),
       ),
-      const Spacer(), // dorong icon ke bawah
+      
+      const Spacer(), // ⁡⁣⁣⁢dorong icon ke bawah⁡
       Padding(
         padding: const EdgeInsets.only(bottom: 30),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
-            Icon(Icons.home, color: Colors.white),
+             Icon(FontAwesomeIcons.github, color: Colors.black),
             SizedBox(width: 10),
-            Icon(Icons.settings, color: Colors.white),
+            Icon(FontAwesomeIcons.linkedin, color: Colors.black),
             SizedBox(width: 10),
-            Icon(Icons.person, color: Colors.white),
+            Icon(FontAwesomeIcons.instagram, color: Colors.black),
           ],
         ),
       ),
