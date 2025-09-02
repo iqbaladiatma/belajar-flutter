@@ -4,8 +4,6 @@ import 'package:my_biodata/bab4/belajar.dart';
 import 'package:my_biodata/bab7/photo_app.dart';
 import 'package:my_biodata/bab8/belajar.dart';
 
-
-
 void main() {
   runApp(const MyApp());
 }
@@ -22,7 +20,7 @@ class MyApp extends StatelessWidget {
       initialRoute: 'PhotoApp',
 
       routes: {
-        'BelajarPage': (context) => const BelajarPage(),
+        'BelajarPage': (context) => const BelajarPage(),  
         'Kalkulate': (context) => const KalkulatorPage(),
         'KalkulatorPage': (context) => const KalkulatorPage(),
         'GalleryApp': (context) => const PhotoListScreen(),
